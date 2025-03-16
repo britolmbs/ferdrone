@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useState } from "react";
 
+
 const NavBar = () => {
 
     const [navBar, setNavbar] = useState(false);
@@ -23,7 +24,7 @@ const NavBar = () => {
             <div className="hidden md:block">
                 <div className="ml-4 flex items-center space-x-4">
                     <Link href={'/'} className="text-white hover:bg-gray-900 hover:text-white rounded-lg p-2">Home</Link>
-                    <Link href={'/about'} className="text-white hover:bg-gray-900 hover:text-white rounded-lg p-2">About</Link>
+                    <Link href={'/About'} className="text-white hover:bg-gray-900 hover:text-white rounded-lg p-2">About</Link>
                     <Link href={'/contact'} className="text-white hover:bg-gray-900 hover:text-white rounded-lg p-2">Contato</Link>
                     <Link href="https://www.instagram.com/ferdrone_imagens_aereas" aria-label="Visite nosso Instagram" className=" text-white hover:text-pink-500">
                     <FontAwesomeIcon icon={faInstagram} size="lg" />
