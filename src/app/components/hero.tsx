@@ -1,9 +1,18 @@
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
+import Image from "next/image"
 
 export function Hero() {
   return (
     <section className="bg-[#E51310] text-white relative overflow-hidden">
-      <div className='container mx-auto py-16 px-4 relative'>
+      <div>
+        <Image src=''
+        alt='Ferdrone' fill
+        sizes="100vw"
+        priority
+        className="object-cover opacity-60 lg:hidden" />
+        <div className="obsolute inset-0 bg-black opacity-40 md:hidden"></div>
+      </div>
+      <div className='container mx-auto pt-16 tb-16 md:pb-0 px-4 relative'>
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
             <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10">Ferdrone imagens Aereas</h1>
@@ -20,8 +29,19 @@ export function Hero() {
             </p>
           </div>
 
-          <div>
-            <h1>imagens do Fernando</h1>
+          <div className='flex mt-4'>
+            <div className="w-32 hidden lg:block">
+            <Image src='' alt='drone'
+            quality={100} className='object-fill' />
+            </div>
+          </div>
+
+          <div className="hidden md:block h-full relative">
+            <Image src=''
+            alt='fernando'
+            className="object-contain"
+            fill sizes="(max-width: 768px) 0vw, 50vw"
+            quality={100} priority />
           </div>
         </article>
       </div>
