@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Check } from 'lucide-react'
+import { InstagramLogo, WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 
 export function About() {
     return (
@@ -26,6 +27,22 @@ export function About() {
                         <Check className='text-red-500' />
                         Casamentos, Show, Eventos
                     </li>
+                    <li className='flex items-center gap-2'>
+                        <Check className='text-red-500' />
+                        Filmagens Profissionais
+                    </li>
+                    <li className="flex items-center gap-2">
+                        <Check className='text-red-500' />
+                        Lorem ipsum dolor sit amet
+                    </li>
+                    <a href="#" className="bg-[#E51310] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                        <InstagramLogo className='w-5 h-5 text-white' />
+                        Visite o Instagram
+                    </a>
+                    <a href="#" className="">
+                        <WhatsappLogo ClassName='' />
+                        Contato Via WhatsApp
+                    </a>
                  </ul>
                 </div>
             </div>
