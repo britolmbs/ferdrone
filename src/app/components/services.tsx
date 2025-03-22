@@ -1,25 +1,25 @@
-"use Client"
+"use client"
 import { Clock, Scissors} from 'lucide-react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
-const Services =[
+const services =[
     {
         title:"titulo",
         description: 'Descrição',
         duration:'2h',
-        prince:'R$350'
-        icon: <Scissors />
+        prince:'R$350',
+        icon: <Scissors />,
         linkText:'Olá! vi no site sobre filmagens e gostaria de mais informações',
     },
 ]
 export function Services() {
-    const [ emblaRef, emblaApi ] = useEmblaCarousel({
+    const [emblaRef, emblaApi] = useEmblaCarousel({
         loop: false,
         align: 'start',
-        slidesToScroll: 1
+        slidesToScroll: 1,
         breakpoints:{
-            "(min-whidth: 768)": {slidesToScroll: 3}
+            "(min-whidth: 768)": {slidesToScroll: 3},
         }
     })
     return (
@@ -30,7 +30,7 @@ export function Services() {
             <div className="relavite">
             <div className='overflow-hidden' ref={emblaRef}>
             <div className='flex'>
-                {Services.map((item, index) => (
+                {services.map((item, index) => (
                     <div key={index} className='flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3] px-3'>
                         <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 g-full flex flex-col'>
                            <div className='flex-1 flex items-start justify-between'>
