@@ -4,13 +4,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const trabalhos = [
     {
-        title:'',
+        title:'Video 1',
         local: '',
         video: '',
 
     },
     {
-        title: '',
+        title: 'video2',
         local: '',
         video: '',
     },
@@ -40,6 +40,13 @@ export function Trabalhos() {
                             <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                             <div className=" flex flex-col items-center text-center space-y-4">
                                 <div className="relative w-24 h-24">
+                                    <p className="text-gray-200">{item.title}</p>
+                                    <video src={item.video} 
+                                    className="w-full rounded-md"
+                                    autoPlay
+                                    loop
+                                    muted
+                                    controls />
 
                                 </div>
                             </div>
