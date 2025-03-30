@@ -6,7 +6,7 @@ const trabalhos = [
     {
         title:'Video 1',
         local: '',
-        video: '',
+        video: 'https://www.youtube.com/watch?v=CnnxXVyVD_s&pp=ygUNbHVjYXMgbW9udGFubw%3D%3D',
 
     },
     {
@@ -39,7 +39,7 @@ export function Trabalhos() {
                         <div key={index} className="flex-[0_0_100%] min-w-0 px-3">
                             <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                             <div className=" flex flex-col items-center text-center space-y-4">
-                                <div className="relative w-24 h-24">
+                                <div className="relative">
                                     <p className="text-gray-200">{item.title}</p>
                                     <video src={item.video} 
                                     className="w-full rounded-md"

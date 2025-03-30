@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 
+
 const NavBar = () => {
 
     const [navBar, setNavbar] = useState(false);
