@@ -1,5 +1,6 @@
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 import Image from "next/image"
+import Drone from '../../public/drone.jpg'
 
 export function Hero() {
   return (
@@ -31,7 +32,7 @@ export function Hero() {
 
           <div className='flex mt-4'>
             <div className="w-32 hidden lg:block">
-            <Image src='' alt='drone'
+            <Image src={Drone} alt='drone'
             quality={100} className='object-fill' />
             </div>
           </div>
