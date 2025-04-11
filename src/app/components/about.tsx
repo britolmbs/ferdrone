@@ -7,7 +7,7 @@ export function About() {
         <section className="bg-[#FDF6ec] py-16">
             <div className="container mx-auto ">
                 <div className="grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className="reative">
+                <div className="reative" data-aos='fade-up-right' data-aos-delay='300'>
                     <div className="relative w-full h-[400px] rounded-3x1 overflow-hidden">
                         <Image
                         src=''
@@ -18,7 +18,7 @@ export function About() {
                         className='object-cover hover:scale-110 duration-300' />
                     </div>
                 </div>
-                <div className="space-y-6">
+                <div className="space-y-6" data-aos='fade-up-left' data-aos-delay='300'>
                 <h2 className="text-4x1 font-bold">Sobre</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur risus. In hac habitasse platea dictumst. 
                 Duis at mollis est. Donec volutpat ornare risus, ut mollis magna feugiat in. Vivamus ac sodales purus.

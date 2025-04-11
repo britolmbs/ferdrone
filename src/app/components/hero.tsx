@@ -1,6 +1,6 @@
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 import Image from "next/image"
-import Drone from '../../../public/drone.jpg'
+import Drone from '../../../public/drone.png'
 
 export function Hero() {
   return (
