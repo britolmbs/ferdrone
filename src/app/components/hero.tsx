@@ -1,16 +1,17 @@
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 import Image from "next/image"
 import Drone from '../../../public/drone.png'
+import Ferdrone from '../../../public/ferdrone.png'
 
 export function Hero() {
   return (
     <section className="bg-[#E51310] text-white relative overflow-hidden">
       <div>
-        <Image src=''
+      <Image src={Ferdrone}
         alt='Ferdrone' fill
-        sizes="100vw"
+        sizes='100vw'
         priority
-        className="object-cover opacity-60 lg:hidden" />
+        className='object-cover opacity-60 lg:hidden' />
         <div className="obsolute inset-0 bg-black opacity-40 md:hidden"></div>
       </div>
       <div className='container mx-auto pt-16 tb-16 md:pb-0 px-4 relative'>
