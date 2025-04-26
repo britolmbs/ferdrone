@@ -2,18 +2,28 @@
 import useEmblaCarousel from "embla-carousel-react"
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+
+
+
 const trabalhos = [
     {
-        title:'Video 1',
+        title:'Show Maria Pita Goiana',
         local: '',
-        video: 'https://www.youtube.com/watch?v=CnnxXVyVD_s&pp=ygUNbHVjYXMgbW9udGFubw%3D%3D',
+        video: '/videos/DJI_0175.mp4'
 
     },
+   
     {
-        title: 'video2',
+        title: 'video 2',
         local: '',
-        video: '',
+        video: '/videos/DJI_0172.MOV'
     },
+    {
+        title: 'video 3',
+        local: '',
+        video: '/videos/DJI_0174.MOV'
+    },
+  
 ]
 
 export function Trabalhos() {
@@ -31,7 +41,7 @@ export function Trabalhos() {
     return(
        <section className="bg-[#E51310] py-16">
         <div className="container mx-auto px-4">
-            <h2 className="text-4xl text-center font-bold mb-12">Trabalhos Realizados</h2>
+            <h2 className="text-4xl text-center font-bold mb-12 text-white">Trabalhos Realizados</h2>
             <div className="relative max-w-4xl mx-auto">
             <div className="overflow-hidden" ref={emblaRef}>
                 <div className="flex">
@@ -42,7 +52,7 @@ export function Trabalhos() {
                                 <div className="relative">
                                     <p className="text-gray-200">{item.title}</p>
                                     <video src={item.video} 
-                                    className="w-full rounded-md"
+                                    className="w-full h-64 object-cover rounded-md shadow-md"
                                     autoPlay
                                     loop
                                     muted
