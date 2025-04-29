@@ -4,7 +4,7 @@ import { InstagramLogo, WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 
 export function About() {
     return (
-        <section className="bg-[#FDF6ec] py-16">
+        <section className="bg-white py-16">
             <div className="container mx-auto ">
                 <div className="grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="reative" data-aos='fade-up-right' data-aos-delay='300'>
@@ -36,12 +36,12 @@ export function About() {
                         <Check className='text-red-500' />
                         Lorem ipsum dolor sit amet
                     </li>
-                    <a href="#" className="bg-[#E51310] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
-                        <InstagramLogo className='w-5 h-5 text-white' />
+                    <a href="#" className="bg-[#E51310] text-[#363636] flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                        <InstagramLogo className='w-5 h-5 text-[#363636]' />
                         Visite o Instagram
                     </a>
-                    <a href="#" className="flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
-                        <WhatsappLogo className='w-5 h-5 text-black' />
+                    <a href="#" className=" bg-[#262626] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                        <WhatsappLogo className='w-5 h-5 text-white' />
                         Contato Via WhatsApp
                     </a>
                  </ul>

@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const trabalhos = [
     {
         title:'Show Maria Pita Goiana',
-        local: '',
+        local: 'Goinia - GO',
         video: '/videos/DJI_0175.mp4'
 
     },
@@ -39,15 +39,15 @@ export function Trabalhos() {
     }
 
     return(
-       <section className="bg-[#E51310] py-16">
+       <section className="bg-[#d1661b] py-16">
         <div className="container mx-auto px-4">
-            <h2 className="text-4xl text-center font-bold mb-12 text-white">Trabalhos Realizados</h2>
+            <h2 className="text-4xl text-center font-bold mb-12 text-[#262626]">Trabalhos Realizados</h2>
             <div className="relative max-w-4xl mx-auto">
             <div className="overflow-hidden" ref={emblaRef}>
                 <div className="flex">
                     {trabalhos.map((item, index) => (
                         <div key={index} className="flex-[0_0_100%] min-w-0 px-3">
-                            <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                            <article className="bg-[#262626] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                             <div className=" flex flex-col items-center text-center space-y-4">
                                 <div className="relative">
                                     <p className="text-gray-200">{item.title}</p>

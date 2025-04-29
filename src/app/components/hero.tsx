@@ -5,7 +5,7 @@ import Ferdrone from '../../../public/ferdrone.png'
 
 export function Hero() {
   return (
-    <section className="bg-[#252425] text-white relative overflow-hidden">
+    <section className="bg-[#d1661b] text-white relative overflow-hidden">
       <div>
       <Image src={Ferdrone}
         alt='Ferdrone'
@@ -19,18 +19,18 @@ export function Hero() {
       <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
-            <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10" data-aos='fade-down'>Ferdrone imagens Aereas</h1>
-            <p className="lg:text-lg" data-aos='fade-right'>Melhores imagens para você</p>
+            <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl leading-10 text-[#363636]" data-aos='fade-down'>Ferdrone imagens Aereas</h1>
+            <p className="lg:text-lg text-[#363636]" data-aos='fade-right'>Melhores imagens para você</p>
 
             <a href="#" data-aos='fade-up' data-aos-delay='500' target="_blank"
-            className="bg-black px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2">
+            className="bg-[#262626] px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2">
                 <WhatsappLogo className="w-5 h-5" />
             Contato via Whatsapp</a>
           
 
           <div className="mt-8">
             <p className="text-sm mb-4">
-              <b className="bg-black text-white px-2 py-1 rounded-md">Venha fazer sua imagens aereas</b>
+              <b className="bg-[#262626] text-white px-2 py-1 rounded-md">Venha fazer sua imagens aereas</b>
             </p>
          
 

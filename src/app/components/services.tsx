@@ -56,7 +56,7 @@ export function Services() {
                         <div className='flex'>
                             {services.map((item, index) => (
                                 <div key={index} className='flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3'>
-                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                    <article className='bg-[#262626] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
                                        <div className='flex-1 flex items-start justify-between'>
 
                                         <div className='flex gap-3'>
