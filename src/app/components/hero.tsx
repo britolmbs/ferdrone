@@ -5,7 +5,7 @@ import Ferdrone from '../../../public/ferdrone.png'
 
 export function Hero() {
   return (
-    <section className="bg-[#E51310] text-white relative overflow-hidden">
+    <section className="bg-[#252425] text-white relative overflow-hidden">
       <div>
       <Image src={Ferdrone}
         alt='Ferdrone'
