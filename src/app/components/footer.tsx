@@ -1,7 +1,12 @@
 'use client'
 import React from "react";
-import Link from "next/link";
+<<<<<<< HEAD
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+=======
+
 import { InstagramLogo } from "@phosphor-icons/react/dist/ssr";
+>>>>>>> 041ccda0bb59abe070a5d70ccf06495444fdedc3
 
 const Footer = () => {
         const current_year = new Date().getFullYear()

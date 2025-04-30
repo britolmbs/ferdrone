@@ -26,15 +26,15 @@ export function About() {
                  <ul className="space-y-4 mt-10">
                     <li className="flex items-center gap-2">
                         <Check className='text-red-500' />
-                        Casamentos, Show, Eventos
+                        Casamentos e empresas.
                     </li>
                     <li className='flex items-center gap-2'>
                         <Check className='text-red-500' />
-                        Filmagens Profissionais
+                        Filmagens Profissionais.
                     </li>
                     <li className="flex items-center gap-2">
                         <Check className='text-red-500' />
-                        Lorem ipsum dolor sit amet
+                       Shows.
                     </li>
                     <a href="#" className="bg-[#E51310] text-[#363636] flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
                         <InstagramLogo className='w-5 h-5 text-[#363636]' />
