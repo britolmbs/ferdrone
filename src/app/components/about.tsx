@@ -36,7 +36,7 @@ export function About() {
                         <Check className='text-red-500' />
                        Shows.
                     </li>
-                    <a href="#" className="bg-[#E51310] text-[#363636] flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+                    <a href="https://www.instagram.com/ferdrone_imagens_aereas" target="_blank" className="bg-[#d1661b] text-[#363636] flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
                         <InstagramLogo className='w-5 h-5 text-[#363636]' />
                         Visite o Instagram
                     </a>
