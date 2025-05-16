@@ -39,9 +39,9 @@ export function Trabalhos() {
     }
 
     return(
-       <section className="bg-[#d1661b] py-16">
+       <section className="bg-[#5B021E] py-16">
         <div className="container mx-auto px-4">
-            <h2 className="text-4xl text-center font-bold mb-12 text-[#262626]">Trabalhos Realizados</h2>
+            <h2 className="text-4xl text-center font-bold mb-12 text-[#F5F5F5]">Trabalhos Realizados</h2>
             <div className="relative max-w-4xl mx-auto">
             <div className="overflow-hidden" ref={emblaRef}>
                 <div className="flex">
