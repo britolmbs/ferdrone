@@ -7,20 +7,20 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const trabalhos = [
     {
-        title:'Show Maria Pita Goiana',
-        local: 'Goinia - GO',
+        title:'Show Maria Pita Goiâna',
+        local: 'Goiânia - GO',
         video: '/videos/DJI_0175.mp4'
 
     },
    
     {
-        title: 'video 2',
-        local: '',
+        title: 'Show Goiâna Arena',
+        local: 'Arena Goiâna',
         video: '/videos/DJI_0172.MOV'
     },
     {
-        title: 'video 3',
-        local: '',
+        title: 'Maria Pita Goiânia Arena',
+        local: 'Goiânia - GO',
         video: '/videos/DJI_0174.MOV'
     },
   
@@ -50,13 +50,15 @@ export function Trabalhos() {
                             <article className="bg-[#262626] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                             <div className=" flex flex-col items-center text-center space-y-4">
                                 <div className="relative">
-                                    <p className="text-gray-200">{item.title}</p>
+                                    <p className="text-[#F5F5F5] font-bold text-lg py-4">{item.title}</p>
                                     <video src={item.video} 
                                     className="w-full h-64 object-cover rounded-md shadow-md"
                                     autoPlay
                                     loop
                                     muted
                                     controls />
+
+                                    <p className="font-bold text-sm py-1 text-[#F5F5F5]">{item.local}</p>
 
                                 </div>
                             </div>
