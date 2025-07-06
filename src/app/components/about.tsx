@@ -21,15 +21,9 @@ export function About() {
                 </div>
                 <div className="space-y-6" data-aos='fade-up-left' data-aos-delay='300'>
                 <h2 className="text-4x1 font-bold">Sobre</h2>
-                <p>Bem-vindo à Ferdrones Imagens Aéreas!  
-Nascemos em plena pandemia, quando a curiosidade por pilotar drones se transformou em paixão e, logo depois, em profissão. Hoje, depois de centenas de horas de voo e muito aperfeiçoamento técnico, oferecemos imagens cinematográficas para shows, eventos corporativos e casamentos que merecem ser lembrados para sempre.
-
-O que nos torna diferentes?  
-• Tecnologia de ponta: DJI Mini 3 Pro para capturas 4K nítidas e discretas, e DJI Avata FPV para voos imersivos e dinâmicos que deixam qualquer produção com cara de blockbuster.  
-• Olhar criativo: enquadramentos únicos que mostram cada detalhe de um ângulo novo, capaz de emocionar e surpreender seu público.  
-• Compromisso total: segurança em primeiro lugar, pontualidade na entrega e pacotes personalizados que cabem no seu projeto.
-
-Eleve seu evento e eternize seus melhores momentos com a qualidade que só quem nasceu olhando o mundo lá de cima pode oferecer. Agende seu voo com a Ferdrones e veja o resultado nos céus — e nas telas!</p>
+                <p>A Ferdrones nasceu em plena pandemia, quando a simples curiosidade de pilotar drones se transformou em paixão e, logo depois, em profissão. Desde então, acumulamos centenas de horas de voo, investimos em aperfeiçoamento técnico e conquistamos um olhar cada vez mais apurado para capturar o mundo lá do alto.</p>
+                <p>Equipados com drones DJI de última geração — do Mini 3 Pro em 4K ao Avata FPV — produzimos imagens aéreas cinematográficas que transformam shows, eventos corporativos e casamentos em lembranças épicas. Nosso diferencial está na combinação entre tecnologia, criatividade e enquadramentos únicos, capazes de revelar detalhes que surpreendem e emocionam o público.</p>
+                <p>Mantemos um compromisso inegociável com segurança, pontualidade e soluções sob medida para cada projeto. Agende seu voo com a Ferdrones e veja seu evento ganhar novos ângulos no céu e na tela.</p>
                  <ul className="space-y-4 mt-10">
                     <li className="flex items-center gap-2">
                         <Check className='text-[#5B021E]' />

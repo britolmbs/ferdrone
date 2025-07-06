@@ -1,5 +1,5 @@
 "use client"
-import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
+import { ChevronLeft, ChevronRight, Clock } from 'lucide-react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { Drone, WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
